@@ -1,0 +1,28 @@
+{
+    "name": "furthestworld/eshelper",
+    "description": "elasticsearch helper",
+    "keywords": [
+        "elasticsearch",
+        "eshelper"
+    ],
+    "require": {
+        "php": ">=7.0",
+        "elasticsearch/elasticsearch": "~6.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "FurthestWorld\\EsHelper\\": ""
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "authors": [
+        {
+            "name": "xuanskyer",
+            "email": "furthestworld@icloud.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
